@@ -1,0 +1,35 @@
+.hr {
+    border-width: 4px !important;
+}
+
+.demo-txt,
+#editor {
+    font-size: 1.2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+#editor {
+    height: 40%;
+    font-size: 1.1rem;
+}
+
+#button {
+    display: inherit;
+    margin: 20px auto 0;
+    text-transform: uppercase;
+    font-family: 'Kalam', cursive;
+}
+
+span.text-custom,
+span.text-custom2 {
+    color: #ca0b9a;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+span.text-custom2 {
+    color: #9608b9;
+}
