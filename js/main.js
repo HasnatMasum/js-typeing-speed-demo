@@ -47,7 +47,7 @@ const endGame = () => {
   if (isNaN(speed)) {
     speed = 0;
   }
-  let finalMsg = `Your typeing speed <span class="text-custom">${speed}</span> words per minute.`;
+  let finalMsg = `Your typeing speed is <span class="text-custom">${speed}</span> words per minute.`;
   finalMsg += compareWords(demoTxt.innerText, totalType);
   demoTxt.innerHTML = finalMsg;
 };
